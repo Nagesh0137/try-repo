@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/A2ZProject/static/css/main.feab96c5.css",
+    "main.js": "/A2ZProject/static/js/main.6ed18be2.js",
+    "index.html": "/A2ZProject/index.html",
+    "main.feab96c5.css.map": "/A2ZProject/static/css/main.feab96c5.css.map",
+    "main.6ed18be2.js.map": "/A2ZProject/static/js/main.6ed18be2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feab96c5.css",
+    "static/js/main.6ed18be2.js"
+  ]
+}
