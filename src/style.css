@@ -1,0 +1,185 @@
+body{
+  overflow-x: hidden;
+}
+/* top menu */
+header div .top_menu{
+  background: linear-gradient(150deg,#D432CE,#FA0516);
+}
+header div .top_menu .text-center a i{
+  color: white;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+/* main navbar */
+
+nav div .navbar-brand img{
+  max-width: 4rem;
+  max-height: 3rem;
+}
+nav div .navbar-nav li{
+margin-left: 10px;
+}
+nav div .navbar-nav .btn{
+  color: white;
+  border-radius: 0%;
+  background: linear-gradient(150deg,#D432CE,#FA0516);
+}
+
+/* header */
+header .container-fluid{
+  background: linear-gradient(60deg, #D531CB 0%,#F9061A 50%,#D531CB 100%);
+}
+.inner-header {
+  /* height:65vh; */
+  /* width:100%; */
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position:relative;
+  width: 100% !important;
+  height:15vh;
+  margin-bottom:-10px;
+  margin-top: -18px;
+  min-height:100px;
+  max-height:150px;
+}
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }
+  h1 {
+    font-size:24px;
+  }
+}
+
+/* company section */
+
+.comp{
+ background: #CCE5FF;
+ 
+}
+.card-img-top{
+  min-width: 100px;
+  min-height: 150px;
+  
+}
+
+/* placement memeber */
+.congrat{
+  font-family: cursive;
+  font-size: 34px;
+  display: inline-block;
+  color: deeppink;
+}
+.place_card{
+  min-height: 210px;
+  max-height: 210px;
+}
+.rounded-circle{
+  box-shadow: 2px 1px 10px -1px black;
+}
+
+/* batcha */
+.batch-card-img{
+width: 60px;
+height: 60px;
+}
+.batch-date{
+font-size: 25px;
+transition: 1s;
+clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+text-align: center;
+background-color: hotpink;
+color: white;
+border: none;
+font-family: 'Raleway', sans-serif;
+color: gray;
+text-shadow: 1px 1px 2px black;
+}
+.batch-time{
+text-shadow: 1px 1px 2px black;
+border-radius: 20px;
+font-size: 21px;
+}
+.batch-btn{
+background:  linear-gradient(150deg, #D432CE, #FA0516) !important;
+}
+
+/* job section */
+.Jobcard{
+  box-shadow: -0px 1px 8px -3px black;
+}
+.Jobcard h2{
+  text-shadow: 1px 1px 2px black;
+}
+.Jobcard h4{
+  text-shadow: 1px 1px 1px lavender;
+}
+.Jobcard .package{
+  
+  background: linear-gradient(150deg,#D432CE,#FA0516);
+  transition: 1s;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.Jobcard li{
+  list-style: none;
+  text-align-last: left;
+  padding-right: 50px;
+  font-weight: 500;
+}
+.recentpost{
+background: #E96B56 !important;
+}
